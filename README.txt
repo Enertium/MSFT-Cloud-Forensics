@@ -1,3 +1,17 @@
+# INTRODUCTION
+
+𝗦.𝗧. 𝗖𝗟𝟬𝗪𝗗 𝗙𝗢𝗥𝗘𝗡𝗦𝗜𝗖𝗦 𝗜𝗦 𝗧𝗛𝗘 𝗡𝗘𝗪 𝗡𝗘𝗪 𝗧𝗛𝗜𝗡𝗚
+ Got problems with #cl0wd / #cloud files going missing, and can't keep backups in your house? Well start collecting evidence: Announcing #CloudForensics.
+
+Run this regularly to keep track of lost/missing/damaged files on #OneDrive, #O365 + E3/E5 #SharePoint. Use this to keep track of your files. It's diff-able. Enterprise & Personal. All of $MSFT #MSFT #Microsoft #MicrosoftCorporation cl0wd. #CloudForensics.
+
+# TECNICAL SUPPORT
+
+Please use Discussions here for technical support. See:
+https://github.com/Enertium/MSFT-Cloud-Forensics/discussions
+
+# BASIC INSTRUCTIONS / EXAMPLE
+
 # Setup Your Azure Appliation
 
 See "Setting up client_id, client_secret & tenant_id:" in download_metadata.py for instructions on how to setup <client_id> / <client_secret>
