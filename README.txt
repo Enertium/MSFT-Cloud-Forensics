@@ -14,7 +14,7 @@ Run this regularly to keep track of lost/missing/damaged files on #OneDrive, #O3
 Please use Discussions here for technical support. See:
 https://github.com/Enertium/MSFT-Cloud-Forensics/discussions
 
-For more hit tips on Cyber Security and Physical Security in these distopian times, take a look at my Physical Security tips on APMonitor.PY here:
+For more hot tips on Cyber Security and Physical Security in these distopian times, take a look at my Physical Security tips on APMonitor.PY here:
 
 https://github.com/CompSciFutures/APMonitor#recommended-configurations-for-addressing-the-first-pillar-physical-security
 
