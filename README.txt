@@ -14,6 +14,14 @@ Run this regularly to keep track of lost/missing/damaged files on #OneDrive, #O3
 Please use Discussions here for technical support. See:
 https://github.com/Enertium/MSFT-Cloud-Forensics/discussions
 
+For more hit tips on Cyber Security and Physical Security in these distopian times, take a look at my Physical Security tips on APMonitor.PY here:
+
+https://github.com/CompSciFutures/APMonitor#recommended-configurations-for-addressing-the-first-pillar-physical-security
+
+And the BeerIsGood Security & Privacy links collection is also rather decent:
+
+https://github.com/beerisgood/Security-link-collection
+
 # BASIC INSTRUCTIONS / EXAMPLE
 
 # Setup Your Azure Appliation
@@ -73,5 +81,19 @@ diff old.comparable.tmp new.comparable.tmp
 tail -n +8 20250322-ap@vizdynamics.com-Personal.list.txt | ../make_comparable.py | sort > old.comparable.tmp
 tail -n +8 20250929-ap@vizdynamics.com-Personal.list.txt | ../make_comparable.py | sort > new.comparable.tmp
 diff old.comparable.tmp new.comparable.tmp
+
+Good luck! And bump me on the "Discussions" forum in the navbar above if you have problems.
+
+Andrew (AP) Prendergast
+https://linktr.ee/CompSciFutures
+Master of Science
+
+Ex-ServerMasters
+Ex-Googler
+Ex-Xerox PARC/PARK
+Ex-Intel Foundry
+Ex Chief Scientist @ Clemenger BBDO / Omnicom
+
+ACM, IEEE & INFORMS member.
 
 
