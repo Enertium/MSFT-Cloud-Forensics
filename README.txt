@@ -12,6 +12,7 @@ https://x.com/CompSciFutures/status/1975555792880439517?s=20
 
 Or. Use this before your local #PoliceMilitarization #CommunistUnions police start to raid your files and delete from existence anything they like for the strangest and most obvious of reasons: Facism, and Intellectual Property theft. If you don't already know, they do have access to your entire cloud. All of the clouds. Always. With no oversight or security controls (FR). Yes, I hate to tell you: this is actually a thing. Welcome to #FusionCenters and the #NewWorldOrder, in 2026.
 
+I'll say it again:
 Run this regularly to keep track of lost/missing/damaged files on #OneDrive, #O365 + E3/E5 #SharePoint. Use this to keep track of your files. It's diff-able. Enterprise & Personal. All of $MSFT #MSFT #Microsoft #MicrosoftCorporation cl0wd. #CloudForensics.
 
 # TECHNICAL SUPPORT
