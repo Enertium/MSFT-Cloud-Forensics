@@ -5,7 +5,7 @@ Got problems with #cl0wd / #cloud files going missing, and can't keep backups in
 
 Run this regularly to keep track of lost/missing/damaged files on #OneDrive, #O365 + E3/E5 #SharePoint. Use this to keep track of your files. It's diff-able. Enterprise & Personal. All of $MSFT #MSFT #Microsoft #MicrosoftCorporation cl0wd. #CloudForensics.
 
-Use this before #CIA #McKinsey the "#TimeBombCEOFactory" (TM) T/a D.B.A MICROSOFT CORPORATION (now with a #Mckinseyite CEO! OH NO!!) nukes your entire existence out of existence by "oh woops" making your E3/E5 SharePoint files go into full "FUCK YOU FUCK OFF PARTNERS PROGRAM" (TM) mode [sic], and then your company doesn't exist.
+Use this before #CIA #McKinsey the "#TimeBombCEOFactory" (TM) a #CommunistUnions subsidiary of "#NationalSecurityCouncil" #NSC (TM) T/a D.B.A MICROSOFT CORPORATION (now with a #Mckinseyite CEO! OH NO!!) nukes your entire existence out of existence by "oh woops" making your E3/E5 SharePoint files go into full "FUCK YOU FUCK OFF PARTNERS PROGRAM" (TM) mode [sic], and then your company doesn't exist.
 
 See this X post for a date when it got really really bad for alot of people in Advertising and Tech:
 https://x.com/CompSciFutures/status/1975555792880439517?s=20
