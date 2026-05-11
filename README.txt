@@ -5,7 +5,7 @@ Got problems with #cl0wd / #cloud files going missing, and can't keep backups in
 
 Run this regularly to keep track of lost/missing/damaged files on #OneDrive, #O365 + E3/E5 #SharePoint. Use this to keep track of your files. It's diff-able. Enterprise & Personal. All of $MSFT #MSFT #Microsoft #MicrosoftCorporation cl0wd. #CloudForensics.
 
-# TECNICAL SUPPORT
+# TECHNICAL SUPPORT
 
 Please use Discussions here for technical support. See:
 https://github.com/Enertium/MSFT-Cloud-Forensics/discussions
