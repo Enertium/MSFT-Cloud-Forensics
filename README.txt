@@ -3,6 +3,10 @@
 𝗦.𝗧. 𝗖𝗟𝟬𝗪𝗗 𝗙𝗢𝗥𝗘𝗡𝗦𝗜𝗖𝗦 𝗜𝗦 𝗧𝗛𝗘 𝗡𝗘𝗪 𝗡𝗘𝗪 𝗧𝗛𝗜𝗡𝗚
 Got problems with #cl0wd / #cloud files going missing, and can't keep backups in your house? Well start collecting evidence: Announcing #CloudForensics.
 
+Use this before #CIA #McKinsey the "#TimeBombCEOFactory" (TM) T/a D.B.A MICROSOFT CORPORATION (now with a #Mckinseyite CEO! OH NO!!) nukes your entire existence out of existence by "oh woops" making your E3/E5 SharePoint files go into full "FUCK YOU FUCK OFF PARTNERS PROGRAM" mode [sic], and then your company doesn't exist. 
+
+Or before your local #PoliceMilitarization #CommunistUnions police start to raid your files and delete from existence anything they like for the strangest and most obvious of reasons: Facism, and Intellectual Property theft. If you don't already know, they do have access to your entire cloud. All of the clouds. Always. With no oversight or security controls (FR). Yes, I hate to tell you: this is actually a thing. Welcome to #FusionCenters and the #NewWorldOrder, in 2026.
+
 Run this regularly to keep track of lost/missing/damaged files on #OneDrive, #O365 + E3/E5 #SharePoint. Use this to keep track of your files. It's diff-able. Enterprise & Personal. All of $MSFT #MSFT #Microsoft #MicrosoftCorporation cl0wd. #CloudForensics.
 
 # TECHNICAL SUPPORT
