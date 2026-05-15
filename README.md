@@ -55,7 +55,7 @@ See "Setting up client_id, client_secret & tenant_id:" in download_metadata.py f
 
 > # CHANGE THESE TO YOUR AZURE APPLICATION:
 > # See "Setting up client_id, client_secret & tenant_id:" below for instructions on how to setup <client_id> / <client_secret>
-> # e...v@gmail.com
+>
 > ```
 > CLIENT_ID = "<YOUR CLIENT_ID>",
 > CLIENT_SECRET = "<YOUR CLIENT_SECRET>"
@@ -113,3 +113,62 @@ tail -n +8 20250929-ap@vizdynamics.com-Personal.list.txt | ../make_comparable.py
 diff old.comparable.tmp new.comparable.tmp
 ```
 
+# Setting up client_id, client_secret & tenant_id:
+
+Let's walk through creating a new app registration in Azure Portal:
+
+```
+Go to Azure Portal (https://portal.azure.com)
+Search for and select "Azure Active Directory" (or "Microsoft Entra ID" in newer portals)
+Click on "App registrations" in the left menu
+Click "+ New registration" at the top
+
+Name: "OneDriveAutomation" (or your preferred name)
+Supported account types: Choose "Accounts in any organizational directory (Any Azure AD directory - Multitenant) and
+personal Microsoft accounts (e.g. Skype, Xbox)"
+Redirect URI: Select "Web" and enter "http://localhost:8000"
+Click "Register"
+```
+
+On the next screen, note down:
+
+```
+Application (client) ID - this is your client_id
+Directory (tenant) ID - this is your tenant_id
+```
+
+To create a client_secret:
+
+```
+Click "Certificates & secrets" in the left menu
+Under "Client secrets", click "+ New client secret"
+Add a description (e.g., "OneDrive Access")
+Choose an expiration
+Click "Add"
+IMMEDIATELY copy the generated secret value - this is your client_secret
+```
+
+Configure API permissions:
+
+```
+Click "API permissions" in the left menu
+Click "Add a permission"
+Choose "Microsoft Graph"
+Choose "Delegated permissions"
+```
+
+Search for and select:
+
+```
+Files.Read
+Files.Read.All
+Files.ReadWrite
+Files.ReadWrite.All
+User.Read
+```
+
+Click "Add permissions"
+
+Click "Grant admin consent" button at top
+
+The key part is selecting the correct "Supported account types" in step 4 - it needs to include personal Microsoft accounts since that's what's usually causes errors.
