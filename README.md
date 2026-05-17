@@ -112,63 +112,49 @@ tail -n +8 20250322-ap@vizdynamics.com-Personal.list.txt | ../make_comparable.py
 tail -n +8 20250929-ap@vizdynamics.com-Personal.list.txt | ../make_comparable.py | sort > new.comparable.tmp
 diff old.comparable.tmp new.comparable.tmp
 ```
+# Setting Up `client_id`, `client_secret` & `tenant_id`
 
-# Setting up client_id, client_secret & tenant_id:
+## 1. Create a New App Registration
 
-Let's walk through creating a new app registration in Azure Portal:
+1. Go to the [Azure Portal](https://portal.azure.com)
+2. Search for and select **Azure Active Directory** (or **Microsoft Entra ID** in newer portals)
+3. In the left menu, click **App registrations**
+4. Click **+ New registration** and fill in the following:
+   - **Name:** `OneDriveAutomation` (or your preferred name)
+   - **Supported account types:** *Accounts in any organizational directory (Any Azure AD directory – Multitenant) and personal Microsoft accounts (e.g. Skype, Xbox)*
+   - **Redirect URI:** Select **Web** and enter `http://localhost:8000`
+5. Click **Register**
 
-```
-Go to Azure Portal (https://portal.azure.com)
-Search for and select "Azure Active Directory" (or "Microsoft Entra ID" in newer portals)
-Click on "App registrations" in the left menu
-Click "+ New registration" at the top
+## 2. Note Your IDs
 
-Name: "OneDriveAutomation" (or your preferred name)
-Supported account types: Choose "Accounts in any organizational directory (Any Azure AD directory - Multitenant) and
-personal Microsoft accounts (e.g. Skype, Xbox)"
-Redirect URI: Select "Web" and enter "http://localhost:8000"
-Click "Register"
-```
+On the next screen, copy the following values:
 
-On the next screen, note down:
+| Field | Variable |
+|---|---|
+| Application (client) ID | `client_id` |
+| Directory (tenant) ID | `tenant_id` |
 
-```
-Application (client) ID - this is your client_id
-Directory (tenant) ID - this is your tenant_id
-```
+## 3. Create a Client Secret
 
-To create a client_secret:
+1. In the left menu, click **Certificates & secrets**
+2. Under **Client secrets**, click **+ New client secret**
+3. Add a description (e.g. `OneDrive Access`) and choose an expiration
+4. Click **Add**
+5. **Immediately copy the generated secret value** — this is your `client_secret` and won't be shown again
 
-```
-Click "Certificates & secrets" in the left menu
-Under "Client secrets", click "+ New client secret"
-Add a description (e.g., "OneDrive Access")
-Choose an expiration
-Click "Add"
-IMMEDIATELY copy the generated secret value - this is your client_secret
-```
+## 4. Configure API Permissions
 
-Configure API permissions:
+1. In the left menu, click **API permissions**
+2. Click **Add a permission → Microsoft Graph → Delegated permissions**
+3. Search for and select each of the following:
+   - `Files.Read`
+   - `Files.Read.All`
+   - `Files.ReadWrite`
+   - `Files.ReadWrite.All`
+   - `User.Read`
+4. Click **Add permissions**
+5. Click **Grant admin consent**
 
-```
-Click "API permissions" in the left menu
-Click "Add a permission"
-Choose "Microsoft Graph"
-Choose "Delegated permissions"
-```
+---
 
-Search for and select:
-
-```
-Files.Read
-Files.Read.All
-Files.ReadWrite
-Files.ReadWrite.All
-User.Read
-```
-
-Click "Add permissions"
-
-Click "Grant admin consent" button at top
-
-The key part is selecting the correct "Supported account types" in step 4 - it needs to include personal Microsoft accounts since that's what's usually causes errors.
+> **Note:** The most critical step is selecting the correct **Supported account types** in Step 1 — it must include personal Microsoft accounts, as omitting this is the most common source of authentication errors.
